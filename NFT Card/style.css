@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    width: 350px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    padding-bottom: 26px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#nft {
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 26px;
+    margin-top: 18px;
+}
+
+.card h1 {
+    color: white;
+    font-weight: 600;
+    margin-left: 26px;
+    font-size: 26px;
+}
+
+#jargin {
+    color: white;
+    opacity: 50%;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 26px;
+}
+
+.time p {
+    color: white;
+}
+
+.eth p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.eth {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 26px;
+    gap: 5px;
+}
+
+.eth img {
+    height: 25px;
+    transform: translateY(13px);
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 26px;
+    gap: 5px;
+    transform: translateY(-50px);
+}
+
+.time img {
+    height: 25px;
+    transform: translateY(12px);
+}
+
+.jules {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 26px;
+    gap: 5px;
+}
+
+.jules img {
+    height: 50px;
+    border: white solid 1px;
+    border-radius: 50%;
+}
+
+#start {
+    color: white;
+    opacity: 50%;
+}
+
+#name {
+    color: white;
+    opacity: 100%;
+}
