@@ -6,12 +6,16 @@ body {
 
 .card {
     background-color: hsl(216, 50%, 16%);
-    margin: auto;
     width: 350px;
     border-radius: 10px;
     font-family: 'Outfit', sans-serif;
     padding-bottom: 26px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 #nft {
@@ -91,10 +95,4 @@ body {
 #name {
     color: white;
     opacity: 100%;
-}
-
-@media (min-width: 576px) {
-    .card {
-        margin-top: 120px;
-    }
 }
