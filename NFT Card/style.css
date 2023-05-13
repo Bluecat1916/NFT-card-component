@@ -92,3 +92,9 @@ body {
     color: white;
     opacity: 100%;
 }
+
+@media (min-width: 576px) {
+    .card {
+        margin-top: 120px;
+    }
+}
